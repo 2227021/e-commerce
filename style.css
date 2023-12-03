@@ -1,0 +1,328 @@
+
+.top{
+    min-width: 100%;
+    font-size: 25px;
+    padding-bottom: 2rem;
+    background-image: url(photo/gold1.png);
+    margin: 0%;
+    
+}
+.product {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6,9%);
+    background-image: url(photo/gold1.png );
+    background-repeat: repeat-x;
+    background-size: 9% ;
+    gap: 6rem;
+    padding-left: 4rem;
+    
+}
+.prodect-text{
+    text-align: center;
+}
+   
+.ro{
+    position: relative;
+    transition: all .40%;
+}
+.ro img{
+    width: 100%;
+    height: 2%;
+    transition: all .40%;
+    border-radius:  50%;  
+}
+.ro:hover{
+    transform: scale(0.9);
+    text-decoration: underline;
+}
+   
+.products{
+    display: grid;
+    grid-template-columns: repeat(6,14%);
+    gap: 2rem;
+    padding-left: 2rem;
+    
+}
+.row {
+    position: relative;
+    border: 1px solid white;
+    border-radius: 10%;
+}
+.row img{
+    width: 100%;
+    height: 180px;
+    border-radius:  10% 10% 0% 0%;    
+}  
+.row:hover{
+    transform: scale(0.9);
+}
+.products1{
+    display: grid;
+    grid-template-columns: repeat(5,17%);
+    gap: 2.5rem;
+    padding-left: 1.5rem;
+
+}
+.prodect-text1{
+    padding-left: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.row1 {
+    position: relative;
+    
+    border-radius: 5%;
+}
+.row1 img{
+    width: 92%;
+    height: 210px;
+    border-radius:  7%;
+    padding: .5rem;    
+}  
+.row1 video{
+    width: 92%;
+    height: 210px;
+    border-radius: 7%; 
+    padding: .5rem;   
+}
+.row1:hover{
+    transform: scale(0.9);
+    box-shadow: 3px 3px 3px 3px gray;
+}
+.rupee{
+    color: rgb(17, 145, 17);
+}
+.heart{
+    position: absolute;
+    top: 13px;
+    right: 13px;
+    background-color:gainsboro ;
+    padding: 5px 6px;
+    border-radius: 50%;
+}
+.offer{
+    font-size: 10px;
+}
+.play{
+        position: absolute;
+        bottom:50%;
+        right: 13px;
+        color: gainsboro;
+        padding: 5px 6px;
+        font-size: 30px;
+}
+.products2{
+    width: 94.8%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 200px;
+    gap: 2.5rem;
+    padding-left: 1.5rem;
+   
+    
+}
+.row2 {
+    position: relative;
+    border-radius: 5%;
+    
+}
+.row2 img{
+    height: 200px;
+    width: 100%;
+    border-radius: 5%;  
+    object-fit: cover;
+    
+}  
+.row2 video{
+    width: 100%;
+    height: 200px;
+    border-radius:5%;  
+    object-fit: cover; 
+}
+
+h2{
+    padding-left: 1.5rem;
+    
+}
+ h3{   
+    text-align: center;
+    font-size: 10px;
+}
+h4{
+    text-align: center;
+    
+}
+
+.all{
+    text-align: right;
+    font-size: 15px;
+}
+h5:hover{
+    transform: scale(1);
+}
+.row3-1{
+    grid-area:row3-1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.row3-2{
+    grid-area:row3-2;
+    width: 100%;
+    height: 100%;
+}
+.row3-3{
+    grid-area:row3-3;
+    width: 100%;
+    height: 100%;
+}
+.row3-4{
+    grid-area:row3-4;
+    width: 100%;
+    height: 100%;
+}
+.row3-5{
+    grid-area:row3-5;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.row3-6{
+    grid-area:row3-6;
+    width: 100%;
+    height: 100%;
+    
+}
+.row3-7{
+    grid-area:row3-7;
+    width: 100%;
+    height: 100%;
+}
+.row3-8{
+    grid-area:row3-8;
+    width: 100%;
+    height: 100%;
+}
+.products3 {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows:200px;
+    grid-template-areas:
+                        'row3-1 row3-1 row3-2 row3-3 row3-8 row3-8'
+                        'row3-4 row3-5 row3-6 row3-7 row3-8 row3-8';
+    grid-gap: 10px;
+    
+  }
+ .products3 > div > img,video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
+ .products3 >.row3-1{
+    width: 100%;
+    height: 100%;
+    padding-left: 1rem;
+ }
+ .heart1{
+    position: absolute;
+    top: 10px;
+    right: 13px;
+    background-color:gainsboro ;
+    padding: 5px 6px;
+    border-radius: 50%;
+}
+.play1{
+    position: absolute;
+    bottom:5%;
+    right: 13px;
+    color: gainsboro;
+    padding: 5px 6px;
+    font-size: 30px;
+}
+h6{
+    font-size: 15px;
+    font-weight: lighter;
+    padding-left: 1.5rem;
+}
+.products4{
+    display: grid;
+    grid-template-columns: repeat(5,17%);
+    gap: 2.5rem;
+    padding-left: 2rem;
+    
+}
+.row4{
+    position: relative;
+    border: 1px solid white;
+    border-radius: 10%;
+}
+.row4 img{
+    width: 100%;
+    height: 180px;
+    border-radius:  10% 10% 0% 0%;    
+}  
+.row4:hover{
+    transform: scale(0.9);
+    box-shadow: 3px 3px 3px 3px gray;
+}
+.products6{
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    gap: 2.5rem;
+    padding-left: 2rem;
+    
+}
+.row6{
+    position: relative;
+    border: 1px solid white;
+    border-radius: 10%;
+}
+.row6 img{
+    width: 100%;
+    height: 200px;
+    border-radius:  10% 10% 0% 0%;    
+}  
+.row6:hover{
+    transform: scale(0.9);
+    box-shadow: 3px 3px 3px 3px gray;
+}
+.prodect-text2{
+    padding-left: 1rem;
+}
+.products5{
+    width: 94.8%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 400px;
+    gap: 2.5rem;
+    padding-left: 1.5rem;
+   
+    
+}
+.row5 {
+    position: relative;
+    border-radius: 5%;
+    
+}
+.row5 img{
+    height: 400px;
+    width: 100%;
+    border-radius: 5%;  
+    object-fit: cover;
+    
+}
+.prodect-text5{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+}  
+.s4>img{
+    height: 50px;
+    width: 50px;
+   border-radius: 50%;
+}
+.row5-1{
+    font-weight: 100;
+    padding-left:1rem;
+}
